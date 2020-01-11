@@ -9,3 +9,4 @@ fromwechattool
 
 add README.txt file at wechat tool and commit push to github branch fromwechattool
 
+test
