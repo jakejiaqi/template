@@ -1,0 +1,33 @@
+<!--pages/1003/1003.wxml-->
+<view class="pgc1003">
+
+	<!--QQ小程序专用 加群
+  <view>
+		<button open-type="openGroupProfile" group-id="1018498788">入群获取更多</button>
+	</view> -->
+	<view class="title"><text class="cuIcon-favor"></text></view>
+	<view class="title">
+		十二星座配对查询
+	</view>
+	<!-- <view class="subTitle">
+	会擦出火花还是？
+</view> -->
+	<view class="content">
+		<picker-view bindchange="bindChange" indicatorClass="indicator" value="{{value}}">
+			<picker-view-column>
+				<view class="item" wx:for="{{women}}" wx:key="key">
+					<image mode="aspectFill" src="../../images/1003/fortune_{{index+1}}.png"></image>
+					<text>女生{{item}}</text>
+				</view>
+			</picker-view-column>
+			<view class="text">配对</view>
+			<picker-view-column>
+				<view class="item" wx:for="{{men}}" wx:key="key">
+					<image mode="aspectFill" src="../../images/1003/fortune_{{index+1}}.png"></image>
+					<text>男生{{item}}</text>
+				</view>
+			</picker-view-column>
+		</picker-view>
+	</view>
+	<button bindtap="tap_start">{{btnTxt}}</button>
+</view>

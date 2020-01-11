@@ -1,0 +1,35 @@
+<!--pages/1001/1001.wxml-->
+<!--Tab Menu-->
+<view class="cu-bar tabbar bg-white shadow foot">
+	<view class="action" data-cur="tab01" bindtap="NavTab">
+		<view class="{{[TabCur=='tab01'?'text-red':'text-gray']}}">
+			<text class="{{[TabCur=='tab01'?'cuIcon-colorlens':'cuIcon-magic']}}"></text>
+			<view>名字</view>
+		</view>
+	</view>
+	<view class="action" data-cur="tab02" bindtap="NavTab">
+		<view class="{{[TabCur=='tab02'?'text-red':'text-gray']}}">
+			<text class="{{[TabCur=='tab02'?'cuIcon-colorlens':'cuIcon-magic']}}"></text>
+			<view>分类</view>
+		</view>
+	</view>
+	<view class="action" data-cur="tab03" bindtap="NavTab">
+		<view class="{{[TabCur=='tab03'?'text-red':'text-gray']}}">
+			<text class="{{[TabCur=='tab03'?'cuIcon-colorlens':'cuIcon-magic']}}"></text>
+			<view>特色</view>
+		</view>
+	</view>
+</view>
+<!--Tab Detail-->
+<view wx:if="{{TabCur=='tab01'}}">
+	tab01
+
+</view>
+<view wx:if="{{TabCur=='tab02'}}">
+	tab02
+
+</view>
+<view wx:if="{{TabCur=='tab03'}}">
+	tab03
+
+</view>
