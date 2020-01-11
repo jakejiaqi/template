@@ -6,3 +6,6 @@ git push -u origin master
 
 branch push to github from wechat tool:
 fromwechattool
+
+add README.txt file at wechat tool and commit push to github branch fromwechattool
+
