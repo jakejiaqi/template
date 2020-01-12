@@ -2,3 +2,21 @@
 page {
   background: #FBF9FE
 }
+
+.block_item {
+  margin: 20rpx 20rpx; /* 上下/左右 */
+  background-color: #FFFFFF; /* 背景 */
+  border-radius: 40rpx;/* 圆角边框 */
+  overflow: hidden;
+  padding: 30rpx; /* 上下左右 */
+  display: flex;
+}
+
+.block_item_first {
+  flex: 1;
+}
+
+
+/* .block_item:first-child {
+  margin-top: 0;
+} */

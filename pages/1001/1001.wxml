@@ -22,14 +22,17 @@
 </view>
 <!--Tab Detail-->
 <view wx:if="{{TabCur=='tab01'}}">
-	tab01
-
+	<view class="block_item">
+		<text class="block_item_first">tab01</text>
+		<text class="cuIcon-magic" bindtap="clickIcon"></text>
+	</view>
 </view>
 <view wx:if="{{TabCur=='tab02'}}">
-	tab02
+	<view class="block_item">tab02tab02tab02tab02tab02tab02tab02tab02tab02tab02tab02tab02tab02tab02tab02tab02tab02tab02tab02
+	</view>
 
 </view>
 <view wx:if="{{TabCur=='tab03'}}">
-	tab03
 
+	<view style="margin: 120rpx 120rpx; text-align: center;">tab03</view>
 </view>

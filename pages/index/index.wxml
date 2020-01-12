@@ -5,8 +5,14 @@
 <view class="index">
 	<view class="index-hd">
 		<!-- <image class="index-logo" src="/images/logo.png"></image> -->
-		<text class="cuIcon-colorlens"/><text class="cuIcon-colorlens"/><text class="cuIcon-colorlens"/>
-		<text class="cuIcon-colorlens"/><text class="cuIcon-colorlens"/><text class="cuIcon-colorlens"/>
+		<text class="cuIcon-colorlens text-red"/>
+		<text class="cuIcon-colorlens text-orange"/>
+		<text class="cuIcon-colorlens text-yellow"/>
+		<text class="cuIcon-colorlens text-green"/>
+		<text class="cuIcon-colorlens text-cyan"/>
+		<text class="cuIcon-colorlens text-blue"/>
+		<text class="cuIcon-colorlens text-purple"/>
+		
 		<!-- <view class="index-desc">个人小程序模板</view> -->
 	</view>
 	<view class="index-bd">
