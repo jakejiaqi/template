@@ -1,0 +1,104 @@
+/*******template more start******/
+.top {
+  margin: 20rpx 0;
+  height: 70rpx;
+  line-height: 70rpx;
+  position: relative;
+}
+
+.top .step {
+  text-align: center;
+  font-size: 32rpx;
+  width: 400rpx;
+  margin: 0 auto; 
+}
+
+.top .box {
+  width: 120rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 5rpx;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-top-left-radius: 35rpx;
+  border-bottom-left-radius: 35rpx;
+  line-height: 60rpx;
+}
+
+.top .box .icon {
+  float: left;
+  width: 40rpx;
+  height: 40rpx;
+  margin: 10rpx;
+  margin-left: 22rpx;
+}
+
+.top .box .num {
+  font-size: 28rpx;
+  float: left;
+  display: block;
+  width: 100rpx;
+  text-align: center;
+}
+/*******template more end******/
+
+/*******template iconmore start******/
+.fixed {
+  position: relative;
+}
+
+.fixed .tool {
+  position: fixed;
+  right: 20rpx;
+  top: 200rpx;
+  z-index: 99;
+}
+
+.fixed .tool image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.iconimg {
+  width: 60rpx;
+  height: 60rpx;
+  font-size: 20rpx;
+  line-height: 60rpx;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 10rpx;
+  border-radius: 50%;
+  background-color: rgb(78, 114, 151);
+}
+
+.iconimg::after {
+  border: none;
+}
+/*******template iconmore end******/
+
+/*******template leftbtns start******/
+.btnView {
+  position: fixed;
+  right: 15rpx;
+  top: 36vh;
+  z-index: 999;
+}
+
+.btnView button {
+  display: inline-block;
+  width: 80rpx;
+  height: 80rpx;
+  font-size: 20rpx;
+  line-height: 80rpx;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  background-color: rgb(78, 114, 151);
+}
+
+.btnView button::after {
+  border: none;
+}
+/*******template leftbtns end******/

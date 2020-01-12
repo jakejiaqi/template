@@ -1,0 +1,15 @@
+<!--components/banner/banner.wxml-->
+<swiper autoplay="true" bindchange="cardSwiper" circular="true" class="card-swiper square-dot" duration="500" indicatorActiveColor="#0081ff" indicatorColor="#8799a3" indicatorDots="false" interval="5000">
+	<swiper-item class="{{cardCur==index?'cur':''}}" wx:for="{{swiperList}}" wx:key="index">
+		<view class="swiper-item">
+			<image mode="aspectFill" src="{{item.url}}" wx:if="{{item.type=='image'}}"></image>
+			<video autoplay loop muted controls="{{false}}" objectFit="cover" showPlayBtn="{{false}}" src="{{item.url}}" wx:if="{{item.type=='video'}}"></video>
+		</view>
+	</swiper-item>
+</swiper>
+
+<view>
+	<view>{{test1}}</view>
+	<button bindtap="changeWord">clickme</button>
+	<slot name="first"></slot>
+</view>

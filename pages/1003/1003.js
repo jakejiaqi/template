@@ -33,7 +33,13 @@ Page({
     wx.navigateTo({
       url: "10031?X=" + this.data.woman + "&Y=" + this.data.man
     });
+  },
 
+  navHome: function () {
+    console.log('navHome')
+    wx.navigateTo({
+      url: "../index/index"
+    })
   },
 
 

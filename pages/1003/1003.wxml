@@ -1,4 +1,7 @@
 <!--pages/1003/1003.wxml-->
+<import src="../../components/template/template.wxml"></import>
+<template is="iconmore"></template>
+
 <view class="pgc1003">
 
 	<!--QQ小程序专用 加群

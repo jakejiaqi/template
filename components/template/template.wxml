@@ -1,0 +1,78 @@
+<!--广告-->
+<template name="adbanner">
+	<view>
+		<ad unitId="43b6b40f6d833ac04c20c3102ce89a3b"></ad>
+	</view>
+</template>
+<template name="adcard">
+	<view>
+		<ad unit-id="421331b7be90dc096cd2980159ba467b" type="card"></ad>
+	</view>
+</template>
+<template name="adfeeds">
+	<view>
+		<ad unit-id="122466cc5b060715992f890d62e409a1" type="feeds"></ad>
+	</view>
+</template>
+<!--更多好玩-->
+<template name="more">
+	<view class="top">
+		<!-- <view class="step" style="font-size: 24rpx; color:yellow;">纸上得来终觉浅，绝知此事要躬行！</view> -->
+		<view class="box" style="font-size: 24rpx; padding-left:10rpx; color:red;" bindtap="boxAd">
+			<!-- <image class="icon" src=""></image> -->
+			<text>更多好玩</text>
+		</view>
+	</view>
+</template>
+<template name="iconmore">
+	<view class="fixed">
+		<view class="tool">
+			<view class="iconimg" bindtap="navHome">
+				<!--openType="share"-->
+				<image src="../../images/more.png"></image>
+			</view>
+		</view>
+	</view>
+</template>
+
+<template name="wordmore">
+	<view class="fixed">
+		<view class="tool">
+			<view class="iconimg" bindtap="boxAd">
+				<!--openType="share"-->
+				<text>首页</text>
+			</view>
+		</view>
+	</view>
+</template>
+
+<template name="leftbtns">
+	<view class="btnView">
+		<view>
+			<button bindtap="refreshData">刷新</button>
+		</view>
+		<view>
+			<button open-type="share">分享</button>
+		</view>
+		<view>
+			<button open-type="openGroupProfile" group-id="1018498788">加群</button>
+		</view>
+	</view>
+</template>
+<!--客制顶部-->
+<template name="cuxtop">
+	<cu-custom isBack="{{true}}">
+		<view slot="backText">返回</view>
+		<view slot="content">{{title}}</view>
+	</cu-custom>
+</template>
+<template name="change">
+	<view class="grid col-2  padding-left padding-right padding-bottom">
+		<view class=" text-center padding-right sm">
+			<button bindtap="clearInput" class="lines-black">清空记录</button>
+		</view>
+		<view class=" text-center">
+			<button class="bg-green" openType="share">分享好友</button>
+		</view>
+	</view>
+</template>

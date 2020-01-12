@@ -1,2 +1,7 @@
 <!--pages/1002/1002.wxml-->
-<text>pages/1002/1002.wxml</text>
+<view>
+  <component-banner>
+    <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->
+     <view slot="first">这里是插入到组件slot中的内容</view> 
+  </component-banner>
+</view>

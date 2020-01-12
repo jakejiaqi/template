@@ -1,1 +1,4 @@
 /* pages/1001/1001.wxss */
+page {
+  background: #FBF9FE
+}

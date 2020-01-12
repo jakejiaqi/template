@@ -1,8 +1,13 @@
 <!--index.wxml-->
+<!-- <import src="../../components/template/template.wxml"></import>
+<template is="iconmore"></template> -->
+
 <view class="index">
 	<view class="index-hd">
-		<image class="index-logo" src="/images/logo.png"></image>
-		<view class="index-desc">个人小程序模板</view>
+		<!-- <image class="index-logo" src="/images/logo.png"></image> -->
+		<text class="cuIcon-colorlens"/><text class="cuIcon-colorlens"/><text class="cuIcon-colorlens"/>
+		<text class="cuIcon-colorlens"/><text class="cuIcon-colorlens"/><text class="cuIcon-colorlens"/>
+		<!-- <view class="index-desc">个人小程序模板</view> -->
 	</view>
 	<view class="index-bd">
 		<view class="kind-list">
@@ -11,11 +16,12 @@
 					<view class="kind-list-item">
 						<view id="{{item.id}}" class="kind-list-item-hd">
 							<view class="kind-list-text">{{item.name}}</view>
-							<image class="kind-list-img" src="/images/{{item.id}}.png"></image>
-						</view>
-					</view>
-				</navigator>
-			</block>
-		</view>
+							<!-- <image class="kind-list-img" src="/images/logo.png"></image> -->
+							<text class="cuIcon-magic"></text>
 	</view>
+</view>
+</navigator>
+</block>
+</view>
+</view>
 </view>
